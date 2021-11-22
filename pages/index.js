@@ -1,6 +1,7 @@
+/* eslint-disable */
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Email, Twitter, Dribbble, LinkedIn, Github } from './icons'
+import { Email, Twitter, Dribbble, LinkedIn, Github } from '../../components/icons'
 
 export default function Home() {
   return (
