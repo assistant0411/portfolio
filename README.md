@@ -1,5 +1,5 @@
 
 
-## Hello
-This is the source code for my minimalist portfolio website.
-Enjoy!
+
+The source code to my minimalist portfolio website.
+https://panshak.com

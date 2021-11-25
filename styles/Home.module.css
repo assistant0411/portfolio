@@ -17,7 +17,7 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -54,6 +54,7 @@
   font-size: 1.0rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color: rgb(78, 78, 78);
 
 }
 
@@ -89,6 +90,15 @@
 .listItem:hover {
   cursor: pointer;
   background-color: rgb(226, 246, 255);
+}
+
+.picture {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 5px rgb(255, 255, 255);
+  box-shadow: 0 5px 15px rgb(0 0 0 / 5%);
 }
 
 

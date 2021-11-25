@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Panshak Solomon</title>
+        <title>Panshak Solomon - Full stack Developer (React/Nodejs) </title>
         <meta name="description" content="Panshak Solomon - Conservation Biologist / Software Developer" />
         <link rel="icon" href="/favicon.ico" />
         <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="panshak" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
@@ -24,7 +24,8 @@ export default function Home() {
         dynamic web applications.
         Aside from software development, I enjoy spending my time watching birds and going for hiking.
         </p>
-        <p style={{fontFamily: 'Roboto', fontWeight: '500'}}>Let's connect</p>
+        {/* <p style={{fontFamily: 'Roboto', fontWeight: '500'}}>Let's connect</p> */}
+        <img className={styles.picture} src="https://i.postimg.cc/Qd7QjBr5/Peekay2.jpg" alt="Panshak Solomon" />
 
       <div className={styles.socials}>
           <ul className={styles.autoGrid}>
