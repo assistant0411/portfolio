@@ -42,7 +42,7 @@ export default function Home() {
               </li>
             </a>
 
-            <a target="_blank" href="https://linkedin/in/Panshak" rel="noopener noreferrer">
+            <a target="_blank" href="https://linkedin.com/in/Panshak" rel="noopener noreferrer">
               <li className={styles.listItem}>
                 <LinkedIn />
               </li>
