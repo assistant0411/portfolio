@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
 
 .container {
-  padding: 0 10rem;
+  padding: 3.5rem 10rem 0;
 }
 
 .main {
@@ -105,13 +105,14 @@
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
   .container {
-    padding: 0 2rem;
+    padding: 3.5rem 2rem 0;
   }
 
   .title {
     margin: 0;
     line-height: 1.1;
     font-size: 6rem;
+    text-align: center;
   }
 
   .description {
