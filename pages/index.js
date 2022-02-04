@@ -29,6 +29,7 @@ export default function Home() {
        <span>
        <a style={{color: '#0070F3', paddingRight: '8px'}} href="https://doi.org/10.1016/j.ufug.2021.127092" target="_blank"> Read my recent publication here.</a>
        </span>
+       I currently work with the A.P. Leventis Ornithological Research institute, University of Jos Biological Conservatory, Jos, Nigeria.
         </p>
        
        <div className={styles.avatar}>
