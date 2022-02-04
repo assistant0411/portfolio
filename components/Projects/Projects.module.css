@@ -1,0 +1,129 @@
+.featuresContainer {
+    margin: 0px auto;
+    width: 100%;
+    /* padding: 0px 60px 20px 60px; */
+  
+   
+  }
+  
+  /*
+      AUTO GRID
+      Set the minimum item size with `--auto-grid-min-size` and you'll
+      get a fully responsive grid with no media queries.
+    */
+  .autoGrid {
+    --auto-grid-min-size: 20em;
+  
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(var(--auto-grid-min-size), 1fr)
+    );
+    grid-gap: 2rem;
+  }
+  
+  .items {
+    width: 100%;
+  }
+  
+  /* .paragraph {
+    width: 60%;
+    margin: 0px auto;
+    padding-bottom: 40px;
+    text-align: center;
+  } */
+  
+
+  .subTitle {
+    color: #0070f3;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 20rem;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px 0px;
+  }
+  
+  .listItem {
+    padding: 0rem 0rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    list-style-type: none;
+    text-align: left !important;
+    box-shadow: rgb(38 78 118 / 12%) 0px 4px 10px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .listItem h2 {
+    text-align: center;
+    padding: 0px 25px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Roboto;
+  }
+  
+  .listItem h2:hover {
+    color: #426e4b;
+  }
+  
+  .listItem p{
+    text-align: center;
+    padding: 0px 25px;
+    text-align: left;
+    font-size: 13px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  
+  .listItem:hover {
+    box-shadow: rgb(38 78 118 / 12%) 0px 4px 10px;
+   
+  }
+  
+  .hrLine {
+    width: 70%;
+    margin: 20px 0px;
+    border-top: 1px 0px 0px 0px solid rgb(252, 252, 252);
+    height: 1px;
+    margin: 15px auto;
+  }
+  
+  
+  .imgThumbnail {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    object-fit: cover;
+
+  }
+  .imgThumbnail:hover {
+    filter: opacity(50);
+    cursor: pointer;
+  }
+  
+
+  
+  @media all and (max-width: 768px) {
+    .featuresContainer {
+      margin: 100px auto;
+      width: 100%;
+      display: block;
+      padding: 5px 8px;
+    }
+  
+  
+    .items {
+      width: 100%;
+    }
+  
+    .imgThumbnail {
+      height: 30vh;
+    }
+  }
