@@ -2,7 +2,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Email, Twitter, Dribbble, LinkedIn, Github, Arrow } from '../components/icons'
-// import Projects from '../components/Projects'
 
 export default function Home() {
 
