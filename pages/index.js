@@ -22,10 +22,9 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        I am Panshak Solomon, a trained Conservation Biologist, Software Developer and a Google Certified Digital Marketer 
-        with proven experience developing and managing consumer-focused software applications using 
-        modern tools and frameworks. 
-       When I'm not building products, I'm actively invlove in conservation research. 
+        I am Panshak Solomon, a Conservation Biologist and a Software Developer
+        with proven experience developing and managing software applications for biodiversity conservation.
+        I love field work and I'm actively invlove in conservation research. 
        <span>
        <a style={{color: '#0070F3', paddingRight: '8px'}} href="https://doi.org/10.1016/j.ufug.2021.127092" target="_blank"> Read my recent publication here.</a>
        </span>
